@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "tokyo-outline";
+  src: url("Tokyo-Outline.woff") format("woff");
+  font-weight: lighter;
+  font-style: normal; }
+@font-face {
+  font-family: "tokyo-regular";
+  src: url("Tokyo-Regular.woff") format("woff");
+  font-weight: lighter;
+  font-style: normal; }
+body {
+  background-image: url("../img/clouds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0; }
+
+#logo {
+  font-family: "tokyo-outline";
+  font-size: 8rem;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 15rem; }
+
+.affix {
+  position: fixed;
+  top: -250; }
+
+#front-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.title {
+  font-family: "tokyo-regular";
+  font-size: 3rem;
+  color: white;
+  align-self: center;
+  margin-bottom: -2rem; }
+
+#mainWhite {
+  border-top: 8px solid #ef7768;
+  border-bottom: 8px solid #ef7768;
+  min-width: 100%;
+  min-height: 25rem;
+  background-color: white;
+  margin-top: 22.2rem;
+  display: flex;
+  align-items: center;
+  align-self: center; }
+
+#aboutMe {
+  display: flex;
+  flex-direction: row; }
+
+#selfie {
+  height: 275px;
+  width: 275px; }
+
+#photoBolt-wrapper {
+  display: flex;
+  flex-direction: row; }
+
+.social {
+  width: 75px;
+  height: 75px; }
+
+#photoContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#twitter {
+  margin-top: 4px;
+  margin-bottom: -4px;
+  margin-left: -3px;
+  width: 80px;
+  height: 80px; }
+
+#resumeLink {
+  font-family: "Roboto", sans-serif; }
+
+#about {
+  max-width: 800px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif; }
+  #about h3 {
+    font-family: "tokyo-regular";
+    font-size: 35px;
+    color: #282727; }
+
+.aboutText {
+  margin-top: 15px; }
+
+#textBottom {
+  margin-bottom: 15px; }
+
+#portTitle {
+  text-align: center;
+  color: white;
+  font-family: "tokyo-regular";
+  font-size: 3rem;
+  margin-bottom: 1rem; }
+
+#gallery {
+  background-color: #282727;
+  padding-bottom: 15px; }
+
+#galButton {
+  font-family: "tokyo-regular";
+  color: black;
+  font-size: 1rem;
+  font-weight: 100; }
+
+#galButton:hover {
+  background-color: #ef7768; }
+
+#galButton:active {
+  background-color: #ef7768; }
+
+#galButton1 {
+  font-family: "tokyo-regular";
+  color: black;
+  font-size: 1rem;
+  font-weight: 100; }
+
+#galButton1:hover {
+  background-color: #ef7768; }
+
+#galButton1:active {
+  background-color: #ef7768; }
+
+#galButton2 {
+  font-family: "tokyo-regular";
+  color: black;
+  font-size: 1rem;
+  font-weight: 100; }
+
+#galButton2:hover {
+  background-color: #ef7768; }
+
+#galButton2:active {
+  background-color: #ef7768; }
+
+#galButton3 {
+  font-family: "tokyo-regular";
+  color: black;
+  font-size: 1rem;
+  font-weight: 100; }
+
+#galButton3:hover {
+  background-color: #ef7768; }
+
+#galButton3:active {
+  background-color: #ef7768; }
+
+#number1 {
+  font-family: "tokyo-regular";
+  color: black;
+  font-size: 1rem;
+  font-weight: 100; }
+
+#number2 {
+  font-family: "tokyo-regular";
+  color: black;
+  font-size: 1rem;
+  font-weight: 100; }
+
+#number3 {
+  font-family: "tokyo-regular";
+  color: black;
+  font-size: 1rem;
+  font-weight: 100; }
+
+.cbp-caption-activeWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.captionText {
+  font-family: "tokyo-regular";
+  color: #ef7768;
+  font-size: 2rem; }
+
+.longCaption {
+  font-size: 1.5rem; }
+
+.cover {
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF; }
+
+.headline {
+  font-family: "tokyo-regular";
+  color: #ef7768;
+  font-size: 3rem;
+  text-align: center; }
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.projectGallery {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 82%; }
+
+.mainImage {
+  border: 3px solid #282727;
+  outline: 1px solid #ef7768; }
+
+.focusImage {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -3px; }
+
+.thumbWrapper {
+  margin: 2px;
+  border: 3px solid #282727;
+  outline: 1px solid #ef7768; }
+
+.thumbsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+.thumbs {
+  max-width: 200px;
+  max-height: 100px;
+  margin-bottom: -3px; }
+
+.blurb {
+  margin-top: 20px;
+  max-width: 700px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
